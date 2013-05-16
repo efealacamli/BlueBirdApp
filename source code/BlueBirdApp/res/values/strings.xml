@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlueBirdApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login with Twitter</string>
+    
+    <string name="tweet">Tweet</string>
+    <string name="logout">Logout from Twitter</string>
+    <string name="update">Enter your status:</string>
+    <string name="usertimeline">User Timeline</string>
+    <string name="hometimeline">Home Timeline</string>
+    <string name="app_welcome">Welcome\u0020</string>
+    <string name="username"/>
+    <string name="userscreenname"/>
+    <string name="userdescription"/>
+
+</resources>

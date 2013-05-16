@@ -1,0 +1,80 @@
+<com.alacamli_secim.bluebirdapp.views.SelectionView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_selection">
+ 
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/app_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="@string/app_welcome" />    
+    
+    <TextView 
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="@string/username" />
+    
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/userscreenname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        android:text="@string/userscreenname" />
+        
+    <TextView 
+        android:id="@+id/userdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        android:text="@string/userdescription" />    
+
+    <Button
+        android:id="@+id/tweet_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/tweet" />
+
+    <Button
+        android:id="@+id/usertimeline_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/usertimeline" />
+
+    <Button
+        android:id="@+id/hometimeline_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/hometimeline" />
+    
+    <Button android:id="@+id/btnLogoutTwitter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="50dip" />
+
+</com.alacamli_secim.bluebirdapp.views.SelectionView>
